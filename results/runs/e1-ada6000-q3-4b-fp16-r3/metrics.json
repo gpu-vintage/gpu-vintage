@@ -1,0 +1,233 @@
+{
+ "batches": {
+  "1": {
+   "batch": 1,
+   "cache_bytes": 113246208,
+   "capture_seconds": 0.3483393960632384,
+   "decode": {
+    "clock_event_reasons": [
+     0
+    ],
+    "energy_counter_j": 2881.605,
+    "energy_sampled_j": 2905.1533434685475,
+    "iterations": 3,
+    "mem_clock_mhz_mean": 9501.0,
+    "power_samples": 509,
+    "seconds": 10.178600202780217,
+    "sm_clock_mhz_mean": 2730.0,
+    "temp_c_max": 69,
+    "tokens": 768
+   },
+   "decode_logits_finite": true,
+   "other_processes": [],
+   "peak_memory_bytes": 8321180672,
+   "prefill": {
+    "clock_event_reasons": [
+     4
+    ],
+    "energy_counter_j": 2988.345,
+    "energy_sampled_j": 3008.9973474050803,
+    "iterations": 204,
+    "mem_clock_mhz_mean": 9501.0,
+    "power_samples": 502,
+    "seconds": 10.043707625940442,
+    "sm_clock_mhz_mean": 1036.5,
+    "temp_c_max": 68,
+    "tokens": 104448
+   },
+   "prefill_logits_finite": true,
+   "status": "ok"
+  },
+  "16": {
+   "batch": 16,
+   "cache_bytes": 1811939328,
+   "capture_seconds": 0.3867883272469044,
+   "decode": {
+    "clock_event_reasons": [
+     4
+    ],
+    "energy_counter_j": 3591.246,
+    "energy_sampled_j": 3590.118227817733,
+    "iterations": 3,
+    "mem_clock_mhz_mean": 9501.0,
+    "power_samples": 600,
+    "seconds": 11.986687944736332,
+    "sm_clock_mhz_mean": 2707.5,
+    "temp_c_max": 73,
+    "tokens": 12288
+   },
+   "decode_logits_finite": true,
+   "other_processes": [],
+   "peak_memory_bytes": 11081356288,
+   "prefill": {
+    "clock_event_reasons": [
+     4
+    ],
+    "energy_counter_j": 3228.45,
+    "energy_sampled_j": 3222.8926282586126,
+    "iterations": 13,
+    "mem_clock_mhz_mean": 9501.0,
+    "power_samples": 538,
+    "seconds": 10.764481113757938,
+    "sm_clock_mhz_mean": 845.7142857142857,
+    "temp_c_max": 74,
+    "tokens": 106496
+   },
+   "prefill_logits_finite": true,
+   "status": "ok"
+  },
+  "256": {
+   "batch": 256,
+   "cache_bytes": 28991029248,
+   "capture_seconds": 0.7591948267072439,
+   "decode": {
+    "clock_event_reasons": [
+     4
+    ],
+    "energy_counter_j": 4662.359,
+    "energy_sampled_j": 4674.2643656816035,
+    "iterations": 1,
+    "mem_clock_mhz_mean": 9501.0,
+    "power_samples": 781,
+    "seconds": 15.617928070947528,
+    "sm_clock_mhz_mean": 1504.8387096774193,
+    "temp_c_max": 74,
+    "tokens": 65536
+   },
+   "decode_logits_finite": true,
+   "other_processes": [],
+   "peak_memory_bytes": 38283722240,
+   "prefill": {
+    "clock_event_reasons": [
+     4
+    ],
+    "energy_counter_j": 4006.217,
+    "energy_sampled_j": 4009.90142009894,
+    "iterations": 1,
+    "mem_clock_mhz_mean": 9501.0,
+    "power_samples": 669,
+    "seconds": 13.389545657671988,
+    "sm_clock_mhz_mean": 835.3846153846154,
+    "temp_c_max": 76,
+    "tokens": 131072
+   },
+   "prefill_logits_finite": true,
+   "status": "ok"
+  },
+  "4": {
+   "batch": 4,
+   "cache_bytes": 452984832,
+   "capture_seconds": 0.3772843861952424,
+   "decode": {
+    "clock_event_reasons": [
+     0
+    ],
+    "energy_counter_j": 2886.068,
+    "energy_sampled_j": 2891.891467437247,
+    "iterations": 3,
+    "mem_clock_mhz_mean": 9501.0,
+    "power_samples": 536,
+    "seconds": 10.705173474736512,
+    "sm_clock_mhz_mean": 2730.0,
+    "temp_c_max": 70,
+    "tokens": 3072
+   },
+   "decode_logits_finite": true,
+   "other_processes": [],
+   "peak_memory_bytes": 8877331456,
+   "prefill": {
+    "clock_event_reasons": [
+     4
+    ],
+    "energy_counter_j": 3021.094,
+    "energy_sampled_j": 3020.750396817509,
+    "iterations": 50,
+    "mem_clock_mhz_mean": 9501.0,
+    "power_samples": 505,
+    "seconds": 10.086984045803547,
+    "sm_clock_mhz_mean": 892.5,
+    "temp_c_max": 73,
+    "tokens": 102400
+   },
+   "prefill_logits_finite": true,
+   "status": "ok"
+  },
+  "64": {
+   "batch": 64,
+   "cache_bytes": 7247757312,
+   "capture_seconds": 0.48103474313393235,
+   "decode": {
+    "clock_event_reasons": [
+     4
+    ],
+    "energy_counter_j": 3741.199,
+    "energy_sampled_j": 3760.0091878066705,
+    "iterations": 2,
+    "mem_clock_mhz_mean": 9501.0,
+    "power_samples": 628,
+    "seconds": 12.550979299936444,
+    "sm_clock_mhz_mean": 2569.2,
+    "temp_c_max": 74,
+    "tokens": 32768
+   },
+   "decode_logits_finite": true,
+   "other_processes": [],
+   "peak_memory_bytes": 16531134976,
+   "prefill": {
+    "clock_event_reasons": [
+     4
+    ],
+    "energy_counter_j": 3950.105,
+    "energy_sampled_j": 3975.5027528256364,
+    "iterations": 4,
+    "mem_clock_mhz_mean": 9501.0,
+    "power_samples": 663,
+    "seconds": 13.274937197100371,
+    "sm_clock_mhz_mean": 845.0,
+    "temp_c_max": 75,
+    "tokens": 131072
+   },
+   "prefill_logits_finite": true,
+   "status": "ok"
+  }
+ },
+ "finished": true,
+ "graph_check": {
+  "batch": 2,
+  "graph_eager_token_agreement": 1.0,
+  "steps": 8
+ },
+ "idle": {
+  "clock_event_reasons": [
+   0
+  ],
+  "energy_counter_j": 712.406,
+  "energy_sampled_j": 715.1995027405068,
+  "mem_clock_mhz_mean": 9501.0,
+  "power_samples": 500,
+  "seconds": 10.00137885287404,
+  "sm_clock_mhz_mean": 2505.0,
+  "temp_c_max": 56
+ },
+ "load_seconds": 3.814285196829587,
+ "model_config": {
+  "arch": "qwen3",
+  "head_dim": 128,
+  "hidden_size": 2560,
+  "intermediate_size": 9728,
+  "num_heads": 32,
+  "num_kv_heads": 8,
+  "num_layers": 36,
+  "o_bias": false,
+  "qk_norm": true,
+  "qkv_bias": false,
+  "rms_norm_eps": 1e-06,
+  "rope_theta": 1000000.0,
+  "tie_word_embeddings": true,
+  "vocab_size": 151936
+ },
+ "other_processes_at_start": [],
+ "parameters": 4022468096,
+ "schema": 1,
+ "weight_bytes": 8044936192
+}

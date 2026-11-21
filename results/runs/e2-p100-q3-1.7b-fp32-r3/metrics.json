@@ -1,0 +1,125 @@
+{
+ "batches": {
+  "1": {
+   "batch": 1,
+   "cache_bytes": 176160768,
+   "capture_seconds": 0.5881256510037929,
+   "decode": {
+    "clock_event_reasons": [
+     0
+    ],
+    "energy_counter_j": null,
+    "energy_sampled_j": 1209.0551007637773,
+    "iterations": 2,
+    "mem_clock_mhz_mean": 715.0,
+    "power_samples": 691,
+    "seconds": 13.818121303105727,
+    "sm_clock_mhz_mean": 1328.0,
+    "temp_c_max": 48,
+    "tokens": 512
+   },
+   "decode_logits_finite": true,
+   "other_processes": [],
+   "peak_memory_bytes": 8428805120,
+   "prefill": {
+    "clock_event_reasons": [
+     0
+    ],
+    "energy_counter_j": null,
+    "energy_sampled_j": 1638.4513418726408,
+    "iterations": 36,
+    "mem_clock_mhz_mean": 715.0,
+    "power_samples": 505,
+    "seconds": 10.080301018897444,
+    "sm_clock_mhz_mean": 1328.0,
+    "temp_c_max": 51,
+    "tokens": 18432
+   },
+   "prefill_logits_finite": true,
+   "status": "ok"
+  },
+  "16": {
+   "batch": 16,
+   "cache_bytes": 2818572288,
+   "error": "CUDA out of memory. Tried to allocate 192.00 MiB. GPU 0 has a total capacity of 11.90 GiB of which 144.62 MiB is free. Including non-PyTorch memory, this process has 11.76 GiB memory in use. Of the allocated memory 11.37 GiB is allocated by PyTorch, with 11.88 MiB allocated in private pools (e.g., C",
+   "status": "oom"
+  },
+  "4": {
+   "batch": 4,
+   "cache_bytes": 704643072,
+   "capture_seconds": 0.5916011009830981,
+   "decode": {
+    "clock_event_reasons": [
+     0
+    ],
+    "energy_counter_j": null,
+    "energy_sampled_j": 1723.8304326315458,
+    "iterations": 2,
+    "mem_clock_mhz_mean": 715.0,
+    "power_samples": 762,
+    "seconds": 15.23736827308312,
+    "sm_clock_mhz_mean": 1328.0,
+    "temp_c_max": 51,
+    "tokens": 2048
+   },
+   "decode_logits_finite": true,
+   "other_processes": [],
+   "peak_memory_bytes": 9230060544,
+   "prefill": {
+    "clock_event_reasons": [
+     0
+    ],
+    "energy_counter_j": null,
+    "energy_sampled_j": 1940.4900524944765,
+    "iterations": 12,
+    "mem_clock_mhz_mean": 715.0,
+    "power_samples": 542,
+    "seconds": 10.852764238836244,
+    "sm_clock_mhz_mean": 1328.0,
+    "temp_c_max": 54,
+    "tokens": 24576
+   },
+   "prefill_logits_finite": true,
+   "status": "ok"
+  }
+ },
+ "finished": true,
+ "graph_check": {
+  "batch": 2,
+  "graph_eager_token_agreement": 1.0,
+  "steps": 8
+ },
+ "idle": {
+  "clock_event_reasons": [
+   0
+  ],
+  "energy_counter_j": null,
+  "energy_sampled_j": 361.70951358140155,
+  "mem_clock_mhz_mean": 715.0,
+  "power_samples": 500,
+  "seconds": 10.000148293096572,
+  "sm_clock_mhz_mean": 1328.0,
+  "temp_c_max": 44
+ },
+ "load_seconds": 3.9902851001825184,
+ "model_config": {
+  "arch": "qwen3",
+  "head_dim": 128,
+  "hidden_size": 2048,
+  "intermediate_size": 6144,
+  "num_heads": 16,
+  "num_kv_heads": 8,
+  "num_layers": 28,
+  "o_bias": false,
+  "qk_norm": true,
+  "qkv_bias": false,
+  "rms_norm_eps": 1e-06,
+  "rope_theta": 1000000.0,
+  "tie_word_embeddings": true,
+  "vocab_size": 151936
+ },
+ "other_processes_at_start": [],
+ "parameters": 2031739904,
+ "schema": 1,
+ "weight_bytes": 8126959616
+}

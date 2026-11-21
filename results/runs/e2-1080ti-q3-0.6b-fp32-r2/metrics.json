@@ -1,0 +1,167 @@
+{
+ "batches": {
+  "1": {
+   "batch": 1,
+   "cache_bytes": 176160768,
+   "capture_seconds": 0.5933127210009843,
+   "decode": {
+    "clock_event_reasons": [
+     0
+    ],
+    "energy_counter_j": 1490.803,
+    "energy_sampled_j": 1493.5708396847476,
+    "iterations": 3,
+    "mem_clock_mhz_mean": 5005.0,
+    "power_samples": 506,
+    "seconds": 10.13577096303925,
+    "sm_clock_mhz_mean": 1873.0,
+    "temp_c_max": 72,
+    "tokens": 768
+   },
+   "decode_logits_finite": true,
+   "other_processes": [],
+   "peak_memory_bytes": 3275635712,
+   "prefill": {
+    "clock_event_reasons": [
+     0,
+     4
+    ],
+    "energy_counter_j": 2508.422,
+    "energy_sampled_j": 2507.8525985275487,
+    "iterations": 106,
+    "mem_clock_mhz_mean": 5005.0,
+    "power_samples": 497,
+    "seconds": 10.091686313040555,
+    "sm_clock_mhz_mean": 1846.65,
+    "temp_c_max": 72,
+    "tokens": 54272
+   },
+   "prefill_logits_finite": true,
+   "status": "ok"
+  },
+  "16": {
+   "batch": 16,
+   "cache_bytes": 2818572288,
+   "capture_seconds": 0.5850693178363144,
+   "decode": {
+    "clock_event_reasons": [
+     32
+    ],
+    "energy_counter_j": 1974.451,
+    "energy_sampled_j": 1975.9486452721458,
+    "iterations": 2,
+    "mem_clock_mhz_mean": 5005.0,
+    "power_samples": 570,
+    "seconds": 13.594897693954408,
+    "sm_clock_mhz_mean": 1506.0,
+    "temp_c_max": 85,
+    "tokens": 8192
+   },
+   "decode_logits_finite": true,
+   "other_processes": [],
+   "peak_memory_bytes": 6784494592,
+   "prefill": {
+    "clock_event_reasons": [
+     0,
+     32
+    ],
+    "energy_counter_j": 1932.043,
+    "energy_sampled_j": 1968.265928656563,
+    "iterations": 7,
+    "mem_clock_mhz_mean": 5005.0,
+    "power_samples": 294,
+    "seconds": 10.1270399519708,
+    "sm_clock_mhz_mean": 1548.4545454545455,
+    "temp_c_max": 87,
+    "tokens": 57344
+   },
+   "prefill_logits_finite": true,
+   "status": "ok"
+  },
+  "4": {
+   "batch": 4,
+   "cache_bytes": 704643072,
+   "capture_seconds": 0.4728097291663289,
+   "decode": {
+    "clock_event_reasons": [
+     0,
+     32
+    ],
+    "energy_counter_j": 2005.088,
+    "energy_sampled_j": 2005.4384200815407,
+    "iterations": 3,
+    "mem_clock_mhz_mean": 5005.0,
+    "power_samples": 561,
+    "seconds": 11.284940432058647,
+    "sm_clock_mhz_mean": 1796.590909090909,
+    "temp_c_max": 84,
+    "tokens": 3072
+   },
+   "decode_logits_finite": true,
+   "other_processes": [],
+   "peak_memory_bytes": 3982519296,
+   "prefill": {
+    "clock_event_reasons": [
+     0,
+     4
+    ],
+    "energy_counter_j": 2478.463,
+    "energy_sampled_j": 2475.896067542469,
+    "iterations": 30,
+    "mem_clock_mhz_mean": 5005.0,
+    "power_samples": 476,
+    "seconds": 10.099651905009523,
+    "sm_clock_mhz_mean": 1773.842105263158,
+    "temp_c_max": 83,
+    "tokens": 61440
+   },
+   "prefill_logits_finite": true,
+   "status": "ok"
+  },
+  "64": {
+   "batch": 64,
+   "cache_bytes": 11274289152,
+   "error": "CUDA out of memory. Tried to allocate 10.50 GiB. GPU 0 has a total capacity of 10.90 GiB of which 7.70 GiB is free. Including non-PyTorch memory, this process has 3.20 GiB memory in use. Of the allocated memory 2.86 GiB is allocated by PyTorch, with 11.88 MiB allocated in private pools (e.g., CUDA G",
+   "status": "oom"
+  }
+ },
+ "finished": true,
+ "graph_check": {
+  "batch": 2,
+  "graph_eager_token_agreement": 1.0,
+  "steps": 8
+ },
+ "idle": {
+  "clock_event_reasons": [
+   0
+  ],
+  "energy_counter_j": 586.689,
+  "energy_sampled_j": 587.5749442520151,
+  "mem_clock_mhz_mean": 5005.0,
+  "power_samples": 500,
+  "seconds": 10.003246448002756,
+  "sm_clock_mhz_mean": 1506.0,
+  "temp_c_max": 53
+ },
+ "load_seconds": 20.942614688072354,
+ "model_config": {
+  "arch": "qwen3",
+  "head_dim": 128,
+  "hidden_size": 1024,
+  "intermediate_size": 3072,
+  "num_heads": 16,
+  "num_kv_heads": 8,
+  "num_layers": 28,
+  "o_bias": false,
+  "qk_norm": true,
+  "qkv_bias": false,
+  "rms_norm_eps": 1e-06,
+  "rope_theta": 1000000.0,
+  "tie_word_embeddings": true,
+  "vocab_size": 151936
+ },
+ "other_processes_at_start": [],
+ "parameters": 751632384,
+ "schema": 1,
+ "weight_bytes": 3006529536
+}

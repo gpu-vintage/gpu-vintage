@@ -1,0 +1,18 @@
+{
+ "attn_implementation": "sdpa",
+ "batches": [
+  1,
+  16
+ ],
+ "command": "scripts/bench_hf.py --model Qwen/Qwen3-1.7B --dtype fp16 --batches 1 16 --gpu-tag ada6000 --run-dir=out/runs/e3-ada6000-q3-1.7b-hf-r2",
+ "dtype": "fp16",
+ "gen_len": 256,
+ "gpu_tag": "ada6000",
+ "kind": "hf_generate",
+ "min_seconds": 10.0,
+ "model": "Qwen/Qwen3-1.7B",
+ "model_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+ "prompt_len": 512,
+ "schema": 1,
+ "warmup_seconds": 2.0
+}

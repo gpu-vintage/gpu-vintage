@@ -1,0 +1,163 @@
+{
+ "batches": {
+  "1": {
+   "batch": 1,
+   "cache_bytes": 113246208,
+   "capture_seconds": 0.533390773460269,
+   "decode": {
+    "clock_event_reasons": [
+     4
+    ],
+    "energy_counter_j": 693.534,
+    "energy_sampled_j": 692.2120867125839,
+    "iterations": 1,
+    "mem_clock_mhz_mean": 5000.0,
+    "power_samples": 511,
+    "seconds": 10.29049226641655,
+    "sm_clock_mhz_mean": 1079.25,
+    "temp_c_max": 61,
+    "tokens": 256
+   },
+   "decode_logits_finite": true,
+   "other_processes": [],
+   "peak_memory_bytes": 8321180672,
+   "prefill": {
+    "clock_event_reasons": [
+     4
+    ],
+    "energy_counter_j": 701.048,
+    "energy_sampled_j": 702.6140140921339,
+    "iterations": 46,
+    "mem_clock_mhz_mean": 5000.0,
+    "power_samples": 509,
+    "seconds": 10.216005160473287,
+    "sm_clock_mhz_mean": 762.75,
+    "temp_c_max": 56,
+    "tokens": 23552
+   },
+   "prefill_logits_finite": true,
+   "status": "ok"
+  },
+  "16": {
+   "batch": 16,
+   "cache_bytes": 1811939328,
+   "capture_seconds": 0.6355472803115845,
+   "decode": {
+    "clock_event_reasons": [
+     4
+    ],
+    "energy_counter_j": 889.942,
+    "energy_sampled_j": 891.7781953170559,
+    "iterations": 1,
+    "mem_clock_mhz_mean": 5000.0,
+    "power_samples": 665,
+    "seconds": 13.300597281195223,
+    "sm_clock_mhz_mean": 957.2222222222222,
+    "temp_c_max": 69,
+    "tokens": 4096
+   },
+   "decode_logits_finite": true,
+   "other_processes": [],
+   "peak_memory_bytes": 11081356288,
+   "prefill": {
+    "clock_event_reasons": [
+     4
+    ],
+    "energy_counter_j": 813.752,
+    "energy_sampled_j": 815.3073263902888,
+    "iterations": 3,
+    "mem_clock_mhz_mean": 5000.0,
+    "power_samples": 608,
+    "seconds": 12.164458934217691,
+    "sm_clock_mhz_mean": 605.4,
+    "temp_c_max": 69,
+    "tokens": 24576
+   },
+   "prefill_logits_finite": true,
+   "status": "ok"
+  },
+  "4": {
+   "batch": 4,
+   "cache_bytes": 452984832,
+   "capture_seconds": 0.5324305603280663,
+   "decode": {
+    "clock_event_reasons": [
+     4
+    ],
+    "energy_counter_j": 741.098,
+    "energy_sampled_j": 747.9863127210549,
+    "iterations": 1,
+    "mem_clock_mhz_mean": 5000.0,
+    "power_samples": 549,
+    "seconds": 11.09479957818985,
+    "sm_clock_mhz_mean": 1108.6363636363637,
+    "temp_c_max": 67,
+    "tokens": 1024
+   },
+   "decode_logits_finite": true,
+   "other_processes": [],
+   "peak_memory_bytes": 8877331456,
+   "prefill": {
+    "clock_event_reasons": [
+     4
+    ],
+    "energy_counter_j": 692.125,
+    "energy_sampled_j": 685.9906772189585,
+    "iterations": 11,
+    "mem_clock_mhz_mean": 5000.0,
+    "power_samples": 508,
+    "seconds": 10.162334692664444,
+    "sm_clock_mhz_mean": 682.8571428571429,
+    "temp_c_max": 65,
+    "tokens": 22528
+   },
+   "prefill_logits_finite": true,
+   "status": "ok"
+  },
+  "64": {
+   "batch": 64,
+   "cache_bytes": 7247757312,
+   "error": "CUDA out of memory. Tried to allocate 6.75 GiB. GPU 0 has a total capacity of 14.58 GiB of which 5.92 GiB is free. Including non-PyTorch memory, this process has 8.60 GiB memory in use. Of the allocated memory 7.61 GiB is allocated by PyTorch, with 11.88 MiB allocated in private pools (e.g., CUDA Gr",
+   "status": "oom"
+  }
+ },
+ "finished": true,
+ "graph_check": {
+  "batch": 2,
+  "graph_eager_token_agreement": 1.0,
+  "steps": 8
+ },
+ "idle": {
+  "clock_event_reasons": [
+   0
+  ],
+  "energy_counter_j": 301.691,
+  "energy_sampled_j": 304.2475656744763,
+  "mem_clock_mhz_mean": 5000.0,
+  "power_samples": 490,
+  "seconds": 10.007094576023519,
+  "sm_clock_mhz_mean": 744.0,
+  "temp_c_max": 48
+ },
+ "load_seconds": 9.805849995464087,
+ "model_config": {
+  "arch": "qwen3",
+  "head_dim": 128,
+  "hidden_size": 2560,
+  "intermediate_size": 9728,
+  "num_heads": 32,
+  "num_kv_heads": 8,
+  "num_layers": 36,
+  "o_bias": false,
+  "qk_norm": true,
+  "qkv_bias": false,
+  "rms_norm_eps": 1e-06,
+  "rope_theta": 1000000.0,
+  "tie_word_embeddings": true,
+  "vocab_size": 151936
+ },
+ "other_processes_at_start": [],
+ "parameters": 4022468096,
+ "schema": 1,
+ "weight_bytes": 8044936192
+}

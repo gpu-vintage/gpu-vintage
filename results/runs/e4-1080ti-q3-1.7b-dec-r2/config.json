@@ -1,0 +1,20 @@
+{
+ "batches": [
+  1,
+  16
+ ],
+ "bucket": 64,
+ "command": "scripts/bench.py --model Qwen/Qwen3-1.7B --dtype fp32 --prompt-len 128 --gen-len 1024 --batches 1 16 --gpu-tag 1080ti --run-dir=out/runs/e4-1080ti-q3-1.7b-dec-r2",
+ "dtype": "fp32",
+ "gen_len": 1024,
+ "gpu_tag": "1080ti",
+ "idle_seconds": 10.0,
+ "min_seconds": 10.0,
+ "model": "Qwen/Qwen3-1.7B",
+ "model_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+ "prefill_max_tokens": 8192,
+ "prompt_len": 128,
+ "schema": 1,
+ "use_graphs": true,
+ "warmup_seconds": 2.0
+}

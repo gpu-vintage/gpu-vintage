@@ -1,0 +1,163 @@
+{
+ "batches": {
+  "1": {
+   "batch": 1,
+   "cache_bytes": 113246208,
+   "capture_seconds": 0.7209898179862648,
+   "decode": {
+    "clock_event_reasons": [
+     0
+    ],
+    "energy_counter_j": null,
+    "energy_sampled_j": 1193.4740571253985,
+    "iterations": 1,
+    "mem_clock_mhz_mean": 715.0,
+    "power_samples": 587,
+    "seconds": 11.746561228996143,
+    "sm_clock_mhz_mean": 1328.0,
+    "temp_c_max": 47,
+    "tokens": 256
+   },
+   "decode_logits_finite": true,
+   "other_processes": [],
+   "peak_memory_bytes": 8321180672,
+   "prefill": {
+    "clock_event_reasons": [
+     0
+    ],
+    "energy_counter_j": null,
+    "energy_sampled_j": 1650.0956389312726,
+    "iterations": 16,
+    "mem_clock_mhz_mean": 715.0,
+    "power_samples": 509,
+    "seconds": 10.20198512612842,
+    "sm_clock_mhz_mean": 1328.0,
+    "temp_c_max": 50,
+    "tokens": 8192
+   },
+   "prefill_logits_finite": true,
+   "status": "ok"
+  },
+  "16": {
+   "batch": 16,
+   "cache_bytes": 1811939328,
+   "capture_seconds": 1.5987369939684868,
+   "decode": {
+    "clock_event_reasons": [
+     0
+    ],
+    "energy_counter_j": null,
+    "energy_sampled_j": 4183.303561236413,
+    "iterations": 1,
+    "mem_clock_mhz_mean": 715.0,
+    "power_samples": 1807,
+    "seconds": 36.15177274378948,
+    "sm_clock_mhz_mean": 1328.0,
+    "temp_c_max": 50,
+    "tokens": 4096
+   },
+   "decode_logits_finite": true,
+   "other_processes": [],
+   "peak_memory_bytes": 11081356288,
+   "prefill": {
+    "clock_event_reasons": [
+     0
+    ],
+    "energy_counter_j": null,
+    "energy_sampled_j": 3780.8931470150687,
+    "iterations": 2,
+    "mem_clock_mhz_mean": 715.0,
+    "power_samples": 897,
+    "seconds": 17.94633088214323,
+    "sm_clock_mhz_mean": 1328.0,
+    "temp_c_max": 59,
+    "tokens": 16384
+   },
+   "prefill_logits_finite": true,
+   "status": "ok"
+  },
+  "4": {
+   "batch": 4,
+   "cache_bytes": 452984832,
+   "capture_seconds": 1.407394244801253,
+   "decode": {
+    "clock_event_reasons": [
+     0
+    ],
+    "energy_counter_j": null,
+    "energy_sampled_j": 3574.924964086907,
+    "iterations": 1,
+    "mem_clock_mhz_mean": 715.0,
+    "power_samples": 1673,
+    "seconds": 33.44450283795595,
+    "sm_clock_mhz_mean": 1328.0,
+    "temp_c_max": 48,
+    "tokens": 1024
+   },
+   "decode_logits_finite": true,
+   "other_processes": [],
+   "peak_memory_bytes": 8877331456,
+   "prefill": {
+    "clock_event_reasons": [
+     0
+    ],
+    "energy_counter_j": null,
+    "energy_sampled_j": 1955.1159528430537,
+    "iterations": 4,
+    "mem_clock_mhz_mean": 715.0,
+    "power_samples": 517,
+    "seconds": 10.329548510024324,
+    "sm_clock_mhz_mean": 1328.0,
+    "temp_c_max": 54,
+    "tokens": 8192
+   },
+   "prefill_logits_finite": true,
+   "status": "ok"
+  },
+  "64": {
+   "batch": 64,
+   "cache_bytes": 7247757312,
+   "error": "CUDA out of memory. Tried to allocate 6.75 GiB. GPU 0 has a total capacity of 11.90 GiB of which 3.14 GiB is free. Including non-PyTorch memory, this process has 8.76 GiB memory in use. Of the allocated memory 7.61 GiB is allocated by PyTorch, with 11.88 MiB allocated in private pools (e.g., CUDA Gr",
+   "status": "oom"
+  }
+ },
+ "finished": true,
+ "graph_check": {
+  "batch": 2,
+  "graph_eager_token_agreement": 1.0,
+  "steps": 8
+ },
+ "idle": {
+  "clock_event_reasons": [
+   0
+  ],
+  "energy_counter_j": null,
+  "energy_sampled_j": 355.20148384230066,
+  "mem_clock_mhz_mean": 715.0,
+  "power_samples": 500,
+  "seconds": 10.000206824857742,
+  "sm_clock_mhz_mean": 1328.0,
+  "temp_c_max": 42
+ },
+ "load_seconds": 5.81040048901923,
+ "model_config": {
+  "arch": "qwen3",
+  "head_dim": 128,
+  "hidden_size": 2560,
+  "intermediate_size": 9728,
+  "num_heads": 32,
+  "num_kv_heads": 8,
+  "num_layers": 36,
+  "o_bias": false,
+  "qk_norm": true,
+  "qkv_bias": false,
+  "rms_norm_eps": 1e-06,
+  "rope_theta": 1000000.0,
+  "tie_word_embeddings": true,
+  "vocab_size": 151936
+ },
+ "other_processes_at_start": [],
+ "parameters": 4022468096,
+ "schema": 1,
+ "weight_bytes": 8044936192
+}

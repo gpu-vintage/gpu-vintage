@@ -1,0 +1,8 @@
+tag,name,architecture,chip,segment,release_date,launch_price_usd,memory_gb,bandwidth_gbs,tdp_w,fp32_tflops,fp16_matrix_tflops,die_mm2,process_nm,sources
+1080ti,GeForce GTX 1080 Ti,Pascal,GP102,consumer,2017-03-10,699,11,484,250,11.34,11.34,471,16,"Epoch AI hardware database (release date, price, specs); FP16 matrix rate taken as the FP32 rate (cuBLAS runs FP16 GEMMs through FP32 arithmetic on GP102, whose native FP16 rate is 0.18 TFLOPS)"
+p100,Tesla P100 PCIe 12GB,Pascal,GP100,data centre,2016-06-20,,12,549.1,250,9.526,19.05,610,16,"Epoch AI hardware database; no launch price for the 12 GB board"
+v100,Tesla V100 PCIe 16GB,Volta,GV100,data centre,2017-06-21,10664,16,897,250,14.13,112,815,12,Epoch AI hardware database (price from Microway)
+t4,Tesla T4,Turing,TU104,data centre (inference),2018-09-13,,16,320,70,8.1,65,545,12,"NVIDIA Ada GPU architecture whitepaper, Appendix D (T4 column); release date Epoch AI; no launch price"
+a100,A100 SXM4 40GB,Ampere,GA100,data centre,2020-05-14,15000,40,1555,400,19.49,312,826,7,Epoch AI hardware database (price from The Next Platform)
+a40,A40,Ampere,GA102,data centre (visual),2020-10-05,,48,696,300,37.4,149.7,628,8,"NVIDIA Ampere GA102 whitepaper v2, Table 3; release date Epoch AI; no launch price"
+ada6000,RTX 6000 Ada Generation,Ada Lovelace,AD102,workstation,2022-12-03,6799,48,960,300,91.1,,608,5,"NVIDIA RTX 6000 Ada Generation datasheet (bandwidth, FP32, 300 W board power); release date and price Epoch AI; its tensor rate is published only as sparse FP8"

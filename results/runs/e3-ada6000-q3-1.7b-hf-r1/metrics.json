@@ -1,0 +1,43 @@
+{
+ "batches": {
+  "1": {
+   "batch": 1,
+   "request": {
+    "clock_event_reasons": [
+     0
+    ],
+    "energy_counter_j": 2057.457,
+    "energy_sampled_j": 2058.248844576547,
+    "iterations": 3,
+    "mem_clock_mhz_mean": 9501.0,
+    "power_samples": 628,
+    "seconds": 12.563888706965372,
+    "sm_clock_mhz_mean": 2692.2,
+    "temp_c_max": 54,
+    "tokens": 768
+   },
+   "status": "ok"
+  },
+  "16": {
+   "batch": 16,
+   "request": {
+    "clock_event_reasons": [
+     0,
+     4
+    ],
+    "energy_counter_j": 4243.724,
+    "energy_sampled_j": 4222.491336277779,
+    "iterations": 3,
+    "mem_clock_mhz_mean": 9501.0,
+    "power_samples": 736,
+    "seconds": 14.734009069856256,
+    "sm_clock_mhz_mean": 2544.0,
+    "temp_c_max": 66,
+    "tokens": 12288
+   },
+   "status": "ok"
+  }
+ },
+ "finished": true,
+ "schema": 1
+}

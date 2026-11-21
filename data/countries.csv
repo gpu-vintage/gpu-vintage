@@ -1,0 +1,7 @@
+country,electricity_usd_kwh,electricity_low_usd_kwh,carbon_g_kwh,price_basis,price_source,carbon_source
+Vietnam,0.1195,0.0759,458.9,"business tariff, 22 kV and above, normal hours, 2,887 VND/kWh (low: production tariff, 22 to 110 kV, normal hours, 1,833 VND/kWh), excl. VAT, at 24,164.9 VND/USD","MOIT Decision 1279/QD-BCT, 9 May 2025, Appendix (data centres on the business tariff from 2 Dec 2025, Circular 60/2025/TT-BCT); World Bank PA.NUS.FCRF 2024","Ember yearly electricity data, 2025"
+United States,0.1337,0.0851,384.4,"commercial sector average 2025 (low: industrial sector average 2025)","EIA Electric Power Monthly, Table 5.3, data for August 2026","Ember yearly electricity data, 2025"
+EU-27,0.1828,,210.9,"non-household, 2,000 to 19,999 MWh/year, excl. VAT and recoverable taxes, mean of 2025-S1 and 2025-S2 (0.1618 EUR/kWh), at 0.88497 EUR/USD","Eurostat nrg_pc_205, updated 2026-10-19; World Bank PA.NUS.FCRF 2025","Ember yearly electricity data, 2025"
+Germany,0.2177,,334.1,"as EU-27 (0.1927 EUR/kWh)","Eurostat nrg_pc_205; World Bank","Ember yearly electricity data, 2025"
+France,0.1417,,41.2,"as EU-27 (0.1254 EUR/kWh)","Eurostat nrg_pc_205; World Bank","Ember yearly electricity data, 2025"
+Poland,0.1955,,590.8,"as EU-27 (0.17305 EUR/kWh)","Eurostat nrg_pc_205; World Bank","Ember yearly electricity data, 2025"

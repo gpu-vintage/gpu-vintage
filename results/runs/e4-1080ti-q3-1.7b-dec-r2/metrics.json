@@ -1,0 +1,87 @@
+{
+ "batches": {
+  "1": {
+   "batch": 1,
+   "cache_bytes": 264241152,
+   "capture_seconds": 2.343749287072569,
+   "decode": {
+    "clock_event_reasons": [
+     0
+    ],
+    "energy_counter_j": 4313.713,
+    "energy_sampled_j": 4315.85524302912,
+    "iterations": 1,
+    "mem_clock_mhz_mean": 5005.0,
+    "power_samples": 1352,
+    "seconds": 27.047982157906517,
+    "sm_clock_mhz_mean": 1885.0,
+    "temp_c_max": 72,
+    "tokens": 1024
+   },
+   "decode_logits_finite": true,
+   "other_processes": [],
+   "peak_memory_bytes": 8451215360,
+   "prefill": {
+    "clock_event_reasons": [
+     0
+    ],
+    "energy_counter_j": 2257.547,
+    "energy_sampled_j": 2260.35153907321,
+    "iterations": 119,
+    "mem_clock_mhz_mean": 5005.0,
+    "power_samples": 498,
+    "seconds": 10.008069787174463,
+    "sm_clock_mhz_mean": 1898.0,
+    "temp_c_max": 66,
+    "tokens": 15232
+   },
+   "prefill_logits_finite": true,
+   "status": "ok"
+  },
+  "16": {
+   "batch": 16,
+   "cache_bytes": 4227858432,
+   "error": "CUDA out of memory. Tried to allocate 3.94 GiB. GPU 0 has a total capacity of 10.90 GiB of which 3.04 GiB is free. Including non-PyTorch memory, this process has 7.86 GiB memory in use. Of the allocated memory 7.62 GiB is allocated by PyTorch, with 11.88 MiB allocated in private pools (e.g., CUDA Gr",
+   "status": "oom"
+  }
+ },
+ "finished": true,
+ "graph_check": {
+  "batch": 2,
+  "graph_eager_token_agreement": 1.0,
+  "steps": 8
+ },
+ "idle": {
+  "clock_event_reasons": [
+   0
+  ],
+  "energy_counter_j": 590.146,
+  "energy_sampled_j": 588.9860968656034,
+  "mem_clock_mhz_mean": 5005.0,
+  "power_samples": 498,
+  "seconds": 10.00573031208478,
+  "sm_clock_mhz_mean": 1551.3,
+  "temp_c_max": 54
+ },
+ "load_seconds": 79.13589531881735,
+ "model_config": {
+  "arch": "qwen3",
+  "head_dim": 128,
+  "hidden_size": 2048,
+  "intermediate_size": 6144,
+  "num_heads": 16,
+  "num_kv_heads": 8,
+  "num_layers": 28,
+  "o_bias": false,
+  "qk_norm": true,
+  "qkv_bias": false,
+  "rms_norm_eps": 1e-06,
+  "rope_theta": 1000000.0,
+  "tie_word_embeddings": true,
+  "vocab_size": 151936
+ },
+ "other_processes_at_start": [],
+ "parameters": 2031739904,
+ "schema": 1,
+ "weight_bytes": 8126959616
+}

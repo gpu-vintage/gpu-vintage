@@ -1,0 +1,88 @@
+{
+ "batches": {
+  "1": {
+   "batch": 1,
+   "cache_bytes": 484442112,
+   "capture_seconds": 0.17481464985758066,
+   "decode": {
+    "clock_event_reasons": [
+     0
+    ],
+    "energy_counter_j": 1688.583,
+    "energy_sampled_j": 1688.6935006785582,
+    "iterations": 5,
+    "mem_clock_mhz_mean": 5005.0,
+    "power_samples": 526,
+    "seconds": 10.550113884964958,
+    "sm_clock_mhz_mean": 1871.142857142857,
+    "temp_c_max": 77,
+    "tokens": 320
+   },
+   "decode_logits_finite": true,
+   "other_processes": [],
+   "peak_memory_bytes": 9002716160,
+   "prefill": {
+    "clock_event_reasons": [
+     0,
+     4
+    ],
+    "energy_counter_j": 2622.691,
+    "energy_sampled_j": 2631.2500681563247,
+    "iterations": 13,
+    "mem_clock_mhz_mean": 5005.0,
+    "power_samples": 451,
+    "seconds": 10.74727025302127,
+    "sm_clock_mhz_mean": 1721.5555555555557,
+    "temp_c_max": 76,
+    "tokens": 26624
+   },
+   "prefill_logits_finite": true,
+   "status": "ok"
+  },
+  "16": {
+   "batch": 16,
+   "cache_bytes": 7751073792,
+   "error": "CUDA out of memory. Tried to allocate 7.22 GiB. GPU 0 has a total capacity of 10.90 GiB of which 3.04 GiB is free. Including non-PyTorch memory, this process has 7.86 GiB memory in use. Of the allocated memory 7.62 GiB is allocated by PyTorch, with 11.88 MiB allocated in private pools (e.g., CUDA Gr",
+   "status": "oom"
+  }
+ },
+ "finished": true,
+ "graph_check": {
+  "batch": 2,
+  "graph_eager_token_agreement": 1.0,
+  "steps": 8
+ },
+ "idle": {
+  "clock_event_reasons": [
+   0
+  ],
+  "energy_counter_j": 607.789,
+  "energy_sampled_j": 607.8654998468123,
+  "mem_clock_mhz_mean": 5005.0,
+  "power_samples": 500,
+  "seconds": 10.000594182871282,
+  "sm_clock_mhz_mean": 1513.55,
+  "temp_c_max": 59
+ },
+ "load_seconds": 84.61422345088795,
+ "model_config": {
+  "arch": "qwen3",
+  "head_dim": 128,
+  "hidden_size": 2048,
+  "intermediate_size": 6144,
+  "num_heads": 16,
+  "num_kv_heads": 8,
+  "num_layers": 28,
+  "o_bias": false,
+  "qk_norm": true,
+  "qkv_bias": false,
+  "rms_norm_eps": 1e-06,
+  "rope_theta": 1000000.0,
+  "tie_word_embeddings": true,
+  "vocab_size": 151936
+ },
+ "other_processes_at_start": [],
+ "parameters": 2031739904,
+ "schema": 1,
+ "weight_bytes": 8126959616
+}

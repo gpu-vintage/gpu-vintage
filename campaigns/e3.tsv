@@ -1,0 +1,13 @@
+run	gpu	time	args
+e3-1080ti-q3-1.7b-hf-r1	1080ti	01:00:00	scripts/bench_hf.py --model Qwen/Qwen3-1.7B --dtype fp32 --batches 1 16 --gpu-tag 1080ti
+e3-1080ti-q3-1.7b-hf-r2	1080ti	01:00:00	scripts/bench_hf.py --model Qwen/Qwen3-1.7B --dtype fp32 --batches 1 16 --gpu-tag 1080ti
+e3-1080ti-q3-1.7b-hf-r3	1080ti	01:00:00	scripts/bench_hf.py --model Qwen/Qwen3-1.7B --dtype fp32 --batches 1 16 --gpu-tag 1080ti
+e3-t4-q3-1.7b-hf-r1	t4	01:00:00	scripts/bench_hf.py --model Qwen/Qwen3-1.7B --dtype fp16 --batches 1 16 --gpu-tag t4
+e3-t4-q3-1.7b-hf-r2	t4	01:00:00	scripts/bench_hf.py --model Qwen/Qwen3-1.7B --dtype fp16 --batches 1 16 --gpu-tag t4
+e3-t4-q3-1.7b-hf-r3	t4	01:00:00	scripts/bench_hf.py --model Qwen/Qwen3-1.7B --dtype fp16 --batches 1 16 --gpu-tag t4
+e3-a100-q3-1.7b-hf-r1	a100	01:00:00	scripts/bench_hf.py --model Qwen/Qwen3-1.7B --dtype fp16 --batches 1 16 --gpu-tag a100
+e3-a100-q3-1.7b-hf-r2	a100	01:00:00	scripts/bench_hf.py --model Qwen/Qwen3-1.7B --dtype fp16 --batches 1 16 --gpu-tag a100
+e3-a100-q3-1.7b-hf-r3	a100	01:00:00	scripts/bench_hf.py --model Qwen/Qwen3-1.7B --dtype fp16 --batches 1 16 --gpu-tag a100
+e3-ada6000-q3-1.7b-hf-r1	ada6000	01:00:00	scripts/bench_hf.py --model Qwen/Qwen3-1.7B --dtype fp16 --batches 1 16 --gpu-tag ada6000
+e3-ada6000-q3-1.7b-hf-r2	ada6000	01:00:00	scripts/bench_hf.py --model Qwen/Qwen3-1.7B --dtype fp16 --batches 1 16 --gpu-tag ada6000
+e3-ada6000-q3-1.7b-hf-r3	ada6000	01:00:00	scripts/bench_hf.py --model Qwen/Qwen3-1.7B --dtype fp16 --batches 1 16 --gpu-tag ada6000
